@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Capriola&family=Chewy&family=Work+Sans:wght@400;500&display=swap");
+
+* {
+  font-family: "Work Sans", sans-serif;
+  color: #184d70;
+}
+.ff-capriola {
+  font-family: "Capriola", sans-serif;
+}
+.ff-chewy {
+  font-family: "Chewy", sans-serif;
+}
+
+.max-window {
+  max-width: 1200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.se1 {
+  background-image: url(bahan/wash-bg2.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 50%;
+  background-attachment: fixed;
+}
+
+.navbar {
+  font-size: large;
+}
+nav {
+  height: 128px;
+  position: fixed;
+  z-index: 99;
+}
+
+nav .items {
+  gap: 2rem;
+  height: 30px;
+}
+nav .items a {
+  font-size: 1.2rem;
+  color: #184d70;
+  font-weight: 500;
+  transition: 0.1s;
+}
+nav .items a:hover {
+  border-bottom: 2px solid #184d70;
+}
+nav .akun .masuk {
+  text-decoration: underline;
+  cursor: pointer;
+  color: #184d70;
+  font-weight: 500;
+}
+
+nav .akun {
+  gap: 10px;
+  font-size: 1.3rem;
+}
+
+nav .daftar-parent {
+  width: 128px;
+  display: flex;
+  justify-content: center;
+}
+nav .akun .daftar {
+  cursor: pointer;
+  background-color: #8ad2ff;
+  font-weight: 600;
+  padding: 6px 30px;
+  width: fit-content;
+  border-radius: 30px;
+  color: #184d70;
+  transition: 0.3s;
+}
+nav .akun .daftar:hover {
+  background-color: #1978b3;
+  color: white;
+  padding: 6px 34px;
+}
+
+.navbar .logo {
+  width: 140px;
+}
+
+.se1 .caption-1 {
+  font-size: 2.5rem;
+  color: #1978b3;
+  font-weight: 800;
+}
+.se1 .caption-2 {
+  font-size: 1.5rem;
+  max-width: 98%;
+  font-weight: 500;
+}
+
+.se1 .order {
+  height: 60px;
+  border-radius: 60px;
+  width: 300px;
+  justify-content: center;
+  color: #184d70;
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.8rem;
+  background: linear-gradient(90deg, rgba(138, 197, 255, 1) 0%, rgba(138, 239, 255, 1) 100%);
+  transition: 0.3s;
+}
+.se1 .order:hover {
+  width: 310px;
+}
+
+.se1 .aset {
+  width: 662px;
+}
+
+.se2 {
+  background-image: url(bahan/decor-up-2.svg);
+  background-position-y: 100%;
+  background-repeat: no-repeat;
+}
+
+.se2 .halaman .list {
+  gap: 40px;
+}
+
+.se2 .kartu-parent {
+  width: 232px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.se2 .kartu .top-list {
+  width: 220px;
+  height: 220px;
+  border-radius: 30px;
+  border: 6px solid #184d70;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+.se2 .kartu {
+  outline: 6px solid #184d70;
+  border-radius: 30px;
+  background-color: #1978b3;
+  outline-offset: -6px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  /* max-width: 220px; */
+}
+
+.se2 .kartu:hover {
+}
+.se2 .kartu .top-list img {
+  height: 140px;
+}
+
+.se2 .kartu .bottom-list {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  width: 220px;
+  padding: 10px 0;
+  color: white;
+  max-width: 220px;
+}
+
+.title-text {
+  font-size: 4rem;
+  color: #184d70;
+}
+
+.caption {
+  color: #184d70;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.se2 .pop-show {
+  display: none;
+  height: 80vh;
+  position: absolute;
+  z-index: 2;
+  /* transform: translate(50% 50%); */
+  padding: 15px;
+}
+
+.se2 .pop-show .pop-body {
+  border: 6px solid #184d70;
+  background-color: #bde6ff;
+  border-radius: 30px;
+}
+
+.se2 .pop-show .close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 40px;
+  cursor: pointer;
+}
+
+.se3 {
+  background-color: #8ad2ff;
+  height: 60vh;
+}
+
+.se4 {
+  background-image: url(bahan/decor-down-2.svg);
+  background-repeat: no-repeat;
+  height: 90vh;
+}
+
+.text-justify {
+  text-align: justify;
+}
+
+.se4 .box-ulasan {
+  border-radius: 30px;
+  height: 278px;
+  width: 100%;
+  border: 6px solid #184d70;
+  background-color: #8ad2ff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.se4 .title-ulasan {
+  font-size: 3rem;
+  color: #184d70;
+}
+
+.se4 .halaman {
+  width: 800px;
+  margin-top: -200px;
+}
+
+.list-ulasan-parent {
+  position: absolute;
+  top: 192px;
+  transform: translate(50% 50%);
+}
+
+.list-ulasan {
+  border-radius: 10px;
+  display: flex;
+  gap: 24px;
+  flex-direction: column;
+}
+.list-komen {
+  border-radius: 10px;
+  padding: 16px 20px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  background-color: white;
+}
+
+.list-komen .nama {
+  font-size: 1.4rem;
+}
+.list-komen .komen {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+.dot {
+  width: 100%;
+  justify-content: end;
+  display: flex;
+  gap: 6px;
+  margin-top: 12px;
+}
+.dots {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: #184d70;
+}
+
+.se4 .kolom-star {
+  gap: 10px;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.se4 .btn-star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 23px;
+  color: white;
+  height: 46px;
+  line-height: normal;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.se4 .btn-star:hover {
+  outline: 4px solid white;
+}
+
+.se4 .btn-star.aktif {
+  outline: 4px solid white;
+}
+
+.se4 .btn-star:not(.all) {
+  width: 46px;
+  background-color: #184d70;
+}
+
+.se4 .btn-star.all {
+  width: 100px;
+  background-color: #184d70;
+}

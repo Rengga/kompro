@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </head>
+  <body>
+    <nav class="d-flex w-100 justify-content-center">
+      <div class="navbar w-100 max-window d-flex justify-content-between align-items-center">
+        <img src="bahan/logo.png" alt="" class="logo" />
+        <div class="items d-flex align-content-center">
+          <a href="">Home</a>
+          <a href="">Paket</a>
+          <a href="">Tentang Kami</a>
+          <a href="">Ulasan</a>
+          <a href="">Hubungi</a>
+        </div>
+        <div class="akun d-flex align-items-center">
+          <div class="masuk">Masuk</div>
+          <div class="daftar-parent">
+            <div class="daftar">Daftar</div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="se1 w-100 vh-100 d-flex justify-content-center">
+      <div class="d-flex justify-content-between max-window w-100">
+        <div class="halaman w-50 d-flex justify-content-center flex-column">
+          <div class="caption-1 ff-capriola">Wash</div>
+          <div class="caption-2 mb-5">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis, quod enim eveniet illo, praesentium nemo alias quia ratione asperiores atque
+            harum eum aut libero.
+          </div>
+          <div class="order">Sewa Jasa Kami</div>
+        </div>
+        <div class="w-50 d-flex justify-content-end">
+          <img src="bahan/wast-aset.svg" alt="" class="aset" />
+        </div>
+      </div>
+    </div>
+    <div class="se2 w-100 vh-100 d-flex justify-content-center align-items-center flex-column position-relative">
+      <div class="pop-show w-100 max-window">
+        <div class="pop-body w-100 h-100"></div>
+        <img src="bahan/close.svg" alt="" class="close" />
+      </div>
+      <div class="halaman max-window">
+        <div class="title-text ff-capriola mb-5 text-center">Paket Kami</div>
+        <div class="caption w-100 mb-3 text-center">Pilih paket sesuai kebutuhan mu dibawah ini</div>
+        <div class="list w-100 d-flex justify-content-center">
+          <div class="kartu-parent">
+            <div class="kartu">
+              <div class="top-list">
+                <img src="bahan/a1.svg" alt="" />
+              </div>
+              <div class="bottom-list ff-capriola">Wash 1</div>
+            </div>
+          </div>
+          <div class="kartu-parent">
+            <div class="kartu">
+              <div class="top-list">
+                <img src="bahan/a3.svg" alt="" />
+              </div>
+              <div class="bottom-list ff-capriola">Wash 2</div>
+            </div>
+          </div>
+          <div class="kartu-parent">
+            <div class="kartu">
+              <div class="top-list">
+                <img src="bahan/a2.svg" alt="" />
+              </div>
+              <div class="bottom-list ff-capriola">Wash 3</div>
+            </div>
+          </div>
+          <div class="kartu-parent">
+            <div class="kartu">
+              <div class="top-list">
+                <img src="bahan/a4.svg" alt="" />
+              </div>
+              <div class="bottom-list ff-capriola">Wash 4</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="se3 w-100 d-flex justify-content-center align-items-center flex-column">
+      <div class="halaman max-window">
+        <div class="title-text ff-capriola text-center mb-3">Siapakah Kami?</div>
+        <div class="d-flex justify-content-center w-100">
+          <div class="caption text-justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex voluptatem ullam odio iure nesciunt cumque earum labore, vel nihil provident dolore
+            magnam nemo iusto, aliquam maxime molestias cum quaerat tempore eaque veniam sit obcaecati? Quibusdam ad eius eligendi numquam veritatis? Lorem
+            ipsum dolor sit amet consectetur adipisicing elit. Distinctio, excepturi.
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="se4 w-100 d-flex justify-content-center align-items-center flex-column">
+      <div class="halaman max-window d-flex justify-content-center align-content-center flex-column position-relative">
+        <div class="px-5 box-ulasan">
+          <div class="title-ulasan ff-capriola mb-4">Ulasan mereka</div>
+          <div class="kolom-star d-flex">
+            <div class="btn-star all aktif" data-value="all">Semua</div>
+            <div class="btn-star" data-value="1">B1</div>
+            <div class="btn-star" data-value="2">B2</div>
+            <div class="btn-star" data-value="3">B3</div>
+            <div class="btn-star" data-value="4">B4</div>
+            <div class="btn-star" data-value="5">B5</div>
+          </div>
+        </div>
+
+        <div class="px-5 list-ulasan-parent w-100">
+          <div class="list-ulasan"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script>
+  $(this).scrollTop(0);
+  $(window).scroll(function () {
+    let scroll = $(window).scrollTop();
+    if (scroll > 10) {
+      $("nav").css({ background: "rgba(255, 255, 255, 1)" });
+      $("nav").stop().animate({ height: "94px" }, 200);
+    } else {
+      $("nav").css({ background: "rgba(255, 255, 255, 0)" });
+      $("nav").stop().animate({ height: "128px" }, 200);
+    }
+  });
+
+  $(document).on("mouseenter", ".kartu", function () {
+    $(this).find(".top-list").animate({ height: "230px", width: "230px" }, 300);
+  });
+  $(document).on("mouseleave", ".kartu", function () {
+    $(this).find(".top-list").animate({ height: "220px", width: "220px" }, 300);
+  });
+  $(document).on("click", ".kartu", function () {
+    $(".se2 .pop-show").show();
+  });
+  $(document).on("click", ".se2 .pop-show .close", function () {
+    $(".se2 .pop-show").hide();
+  });
+
+  let komen = [
+    { nama: "Ali", komentar: "maximize integrated users", bintang: 4 },
+    { nama: "Rowland", komentar: "seize cross-platform channels", bintang: 5 },
+    { nama: "Yolane", komentar: "unleash ubiquitous eyeballs", bintang: 1 },
+    { nama: "Ivett", komentar: "e-enable transparent web-readiness", bintang: 5 },
+    { nama: "Mechelle", komentar: "disintermediate customized e-business", bintang: 3 },
+    { nama: "Fields", komentar: "transform scalable e-services", bintang: 4 },
+    { nama: "Tabitha", komentar: "unleash viral applications", bintang: 5 },
+    { nama: "Aindrea", komentar: "enable strategic bandwidth", bintang: 1 },
+    { nama: "Jaclin", komentar: "engage world-class e-commerce", bintang: 5 },
+    { nama: "Scott", komentar: "incentivize e-business interfaces", bintang: 3 },
+    { nama: "Freeland", komentar: "deliver distributed channels", bintang: 4 },
+    { nama: "Laetitia", komentar: "deploy sticky e-services", bintang: 5 },
+    { nama: "Norbie", komentar: "e-enable cross-media metrics", bintang: 1 },
+    { nama: "Nancy", komentar: "unleash scalable platforms", bintang: 2 },
+    { nama: "Bernard", komentar: "incubate sticky ROI", bintang: 3 },
+    { nama: "Gennie", komentar: "recontextualize efficient communities", bintang: 4 },
+    { nama: "Dionysus", komentar: "syndicate plug-and-play synergies", bintang: 5 },
+    { nama: "Raimundo", komentar: "generate B2B synergies", bintang: 5 },
+    { nama: "Ward", komentar: "integrate customized web-readiness", bintang: 5 },
+    { nama: "Thatcher", komentar: "visualize impactful mindshare", bintang: 5 },
+  ];
+
+  var star5 = `<div class="dot">
+                <div class="dots"></div>
+                <div class="dots"></div>
+                <div class="dots"></div>
+                <div class="dots"></div>
+                <div class="dots"></div>
+              </div>`;
+
+  var star4 = `<div class="dot">
+                <div class="dots"></div>
+                <div class="dots"></div>
+                <div class="dots"></div>
+                <div class="dots"></div>
+              </div>`;
+
+  var star3 = `<div class="dot">
+                <div class="dots"></div>
+                <div class="dots"></div>
+                <div class="dots"></div>
+              </div>`;
+
+  var star2 = `<div class="dot">
+                <div class="dots"></div>
+                <div class="dots"></div>
+              </div>`;
+
+  var star1 = `<div class="dot">
+                <div class="dots"></div>
+              </div>`;
+
+  $.each(komen, function (i, v) {
+    let star = v.bintang;
+    let divStar;
+    if (star == 5) {
+      divStar = star5;
+    } else if (star == 4) {
+      divStar = star4;
+    } else if (star == 3) {
+      divStar = star3;
+    } else if (star == 2) {
+      divStar = star2;
+    } else {
+      divStar = star1;
+    }
+    $(".se4 .list-ulasan").append(`
+      <div class="list-komen">
+        <span class="nama ff-chewy">${v.nama}</span>
+        <span class="komen">${v.komentar}</span>
+        ${divStar}
+      </div>
+    `);
+  });
+
+  $(document).on("click", ".se4 .btn-star", function () {
+    $(".se4 .btn-star").removeClass("aktif");
+    $(this).addClass("aktif");
+  });
+</script>

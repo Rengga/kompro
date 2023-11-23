@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1920px" height="116px" viewBox="0 0 1920 116" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L1920 0L1920 116L0 116L0 0Z" id="path_1" />
+    <path d="M-426 280.5C-426 133.316 194.533 14 960 14C1725.47 14 2346 133.316 2346 280.5C2346 427.684 1725.47 547 960 547C194.533 547 -426 427.684 -426 280.5Z" id="path_2" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+    <clipPath id="clip_2">
+      <use xlink:href="#path_2" />
+    </clipPath>
+  </defs>
+  <g id="Full HD Copy" clip-path="url(#clip_1)" transform="matrix(-1 0 -0 -1 1920 116)">
+    <path d="M0 0L1920 0L1920 116L0 116L0 0Z" id="Full-HD-Copy" fill="none" stroke="none" />
+    <g id="Oval">
+      <use stroke="none" fill="#8AD2FF" xlink:href="#path_2" fill-rule="evenodd" />
+      <g clip-path="url(#clip_2)">
+        <use xlink:href="#path_2" fill="none" stroke="#1978B3" stroke-width="20" />
+      </g>
+    </g>
+  </g>
+</svg>

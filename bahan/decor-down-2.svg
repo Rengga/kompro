@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="1920px" height="584px" viewBox="0 0 1920 584" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M0 0L1920 0L1920 584L0 584L0 0Z" id="path_1" />
+    <path d="M-426 748.5C-426 601.316 194.533 482 960 482C1725.47 482 2346 601.316 2346 748.5C2346 895.684 1725.47 1015 960 1015C194.533 1015 -426 895.684 -426 748.5Z" id="path_2" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+    <clipPath id="clip_2">
+      <use xlink:href="#path_2" />
+    </clipPath>
+  </defs>
+  <g id="Full HD Copy 2" clip-path="url(#clip_1)" transform="matrix(-1 0 0 -1 1920 584)">
+    <path d="M0 0L1920 0L1920 584L0 584L0 0Z" id="Full-HD-Copy-2" fill="none" stroke="none" />
+    <path d="M689 551L436 551C436 551 681.063 335.125 960 341.5C1238.94 347.875 1369.81 309.75 1570 196C1770.19 82.25 1866.69 4.37501 2082.5 60.5C2298.31 116.625 2082.5 666.5 2082.5 666.5L689 551Z" id="Vector" fill="#8AD2FF" fill-opacity="0.2" fill-rule="evenodd" stroke="none" />
+    <g id="Oval">
+      <use stroke="none" fill="#8AD2FF" xlink:href="#path_2" fill-rule="evenodd" />
+      <g clip-path="url(#clip_2)">
+        <use xlink:href="#path_2" fill="none" stroke="#1978B3" stroke-width="20" />
+      </g>
+    </g>
+  </g>
+</svg>

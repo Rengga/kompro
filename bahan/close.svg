@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="167px" height="167px" viewBox="0 0 167 167" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path d="M167 0L167 0L167 167L0 167L0 0L167 0Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="iPad Pro App" clip-path="url(#clip_1)">
+    <path d="M167 0L167 0L167 167L0 167L0 0L167 0Z" id="iPad-Pro-App" fill="none" stroke="none" />
+    <path d="M0 83.5C0 37.3842 37.3842 0 83.5 0C129.616 0 167 37.3842 167 83.5C167 129.616 129.616 167 83.5 167C37.3842 167 0 129.616 0 83.5Z" id="Oval" fill="#184D70" fill-rule="evenodd" stroke="none" />
+    <g id="Group" transform="matrix(0.70710677 0.70710677 -0.70710677 0.70710677 83.5 14.910645)">
+      <path d="M48.5 0L48.5 97" id="Line" fill="none" fill-rule="evenodd" stroke="#bde6ff" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" />
+      <path d="M0 48.5L97 48.5" id="Line-Copy" fill="none" fill-rule="evenodd" stroke="#bde6ff" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" />
+    </g>
+  </g>
+</svg>
