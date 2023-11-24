@@ -389,6 +389,11 @@ footer {
 }
 
 @media screen and (max-width: 620px) {
+  nav {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+  }
   nav.desktop {
     display: none !important;
   }
