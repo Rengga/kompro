@@ -48,6 +48,15 @@ nav .items a {
 nav .items a:hover {
   border-bottom: 2px solid #184d70;
 }
+
+nav .items a.aktif {
+  background-color: #184d70;
+  border: 2px solid #184d70;
+  border-radius: 16px;
+  line-height: 1;
+  color: white;
+  padding: 3px 9px;
+}
 nav .akun .masuk {
   text-decoration: underline;
   cursor: pointer;
@@ -239,7 +248,7 @@ nav .akun .daftar:hover {
 
 .se4 .halaman {
   width: 800px;
-  margin-top: -200px;
+  margin-top: -264px;
 }
 
 .list-ulasan-parent {
@@ -253,6 +262,8 @@ nav .akun .daftar:hover {
   display: flex;
   gap: 24px;
   flex-direction: column;
+  max-height: 412px;
+  overflow-y: auto;
 }
 .list-komen {
   border-radius: 10px;
@@ -318,4 +329,106 @@ nav .akun .daftar:hover {
 .se4 .btn-star.all {
   width: 100px;
   background-color: #184d70;
+}
+
+/* width */
+.custom-scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+.custom-scroll::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-radius: 4px;
+}
+
+/* Handle */
+.custom-scroll::-webkit-scrollbar-thumb {
+  background: #ffc14f;
+  border-radius: 4px;
+}
+
+/* Handle on hover */
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+  background: #ffb938;
+}
+
+.se5 {
+  height: 40vh;
+}
+.se5 .halaman .page {
+  font-weight: 500;
+  gap: 20px;
+}
+.se5 .hub {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  width: 420px;
+  background: #bde6ff;
+  border: 6px solid #1978b3;
+  border-radius: 46px;
+  font-size: 3rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.se5 .hub:hover {
+  background: #1978b3;
+  color: white;
+}
+
+.se5 .or {
+  font-size: 2rem;
+}
+
+footer {
+  height: 30vh;
+  background-color: #184d70;
+}
+
+@media screen and (max-width: 420px) {
+  nav.desktop {
+    display: none !important;
+  }
+  nav.mobile {
+    display: flex !important;
+  }
+
+  nav.mobile {
+    height: 80px !important;
+  }
+  nav.mobile .logo {
+    width: 100px;
+    object-fit: contain;
+  }
+  .max-window {
+    max-width: 800px;
+    padding: 0px 20px;
+  }
+  .se1 .halaman,
+  .se1 .caption-1 {
+    width: 100% !important;
+  }
+  .se1 .home {
+    flex-direction: column;
+    justify-content: start !important;
+    margin-top: 100px;
+    gap: 50px;
+  }
+  .se1 .aset {
+    width: 100% !important;
+  }
+
+  .se1 .order {
+    width: 246px;
+    font-size: 1.6rem;
+    height: 50px;
+    line-height: 1;
+  }
+
+  .title-text {
+    font-size: 3rem;
+  }
 }
